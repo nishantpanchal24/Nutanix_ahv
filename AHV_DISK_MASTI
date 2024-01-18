@@ -1,0 +1,8 @@
+To convert bus time for the disk 
+
+Refrence
+ acli vm.disk_create <VM name or UUID> clone_from_vmdisk=<source disk UUID> bus=<target bus> [index=<target index>]
+
+
+acli vm.disk_create okdc-noc-dns2 clone_from_vmdisk=e379cd96-0618-4d1a-b85c-85db520e9e28 bus=pci
+
